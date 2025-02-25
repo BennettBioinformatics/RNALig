@@ -18,7 +18,9 @@ from scipy.spatial.distance import cdist
 These essential packages need to be installed before use the script.
 
 **Binding affinity prediction**
-After features extraction use 
+After features extraction use Random Forest Refressor script for binding affinity prediction. 
+Before run the script put the features file in working folder and install all the required libraries. The script will save the binding affinities in the form of .csv file. The script is able to predict binding affinity for one RNA-ligand complex or many number of complexes. So during running of script it will popup to ask for specific pdb structure or number of pdbs. So if user have one pdb structure or several structures should be save in working folder only. So script directly took the structure from working folder and predict affinity.
+Both features extraction and Random Forest Regressor will work on same working folder.
 
 
 
