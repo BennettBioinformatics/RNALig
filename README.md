@@ -17,5 +17,15 @@ import numpy as np
 from scipy.spatial.distance import cdist
 These essential packages need to be installed before use the script.
 
+**Binding affinity prediction**
+After features extraction use 
+
+
+
+
+
+
+
+
 
 
