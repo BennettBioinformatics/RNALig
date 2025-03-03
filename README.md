@@ -40,7 +40,10 @@ cd ViennaRNA-2.5.0
 make
 sudo make install
 After installing these packages the Features_extraction.py script will work properly.
-2- 
+2- Random Forest Regressor script to predict Bindingg affinity
+pip install pandas
+pip install scikit-learn
+
 
 
 
