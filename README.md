@@ -24,6 +24,24 @@ Both features extraction and Random Forest Regressor will work on same working f
 **Affinity Conversion**
 Affinity conversion script has been used to convert the experimental affinities in one unit kcal/mol to train the model. If user wants to convert the affinity then this script will be helpful.
 
+**Install packages**
+1- MDAnalysis
+#pip install MDAnalysis
+@varify the installation (python or python3)
+#python3 -c "import MDAnalysis; print(MDAnalysis.__version__)"
+@Install other dependencies
+#pip install biopython pubchempy rdkit scipy numpy
+@Install ViennaRNA 
+sudo apt-get install build-essential libgsl-dev libgslcblas0 zlib1g-dev
+wget https://www.tbi.univie.ac.at/RNA/download/sourcecode/2_5_x/ViennaRNA-2.5.0.tar.gz
+tar -xvzf ViennaRNA-2.5.0.tar.gz
+cd ViennaRNA-2.5.0
+./configure --prefix=/usr/local
+make
+sudo make install
+After installing these packages the Features_extraction.py script will work properly.
+2- 
+
 
 
 
